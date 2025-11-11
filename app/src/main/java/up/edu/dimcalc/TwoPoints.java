@@ -1,6 +1,6 @@
 package up.edu.dimcalc;
 
-import android.graphics.Point;
+//import android.graphics.Point;
 
 import java.util.Random;
 
