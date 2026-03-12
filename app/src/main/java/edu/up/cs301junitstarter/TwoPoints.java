@@ -1,7 +1,5 @@
 package edu.up.cs301junitstarter;
 
-import android.graphics.Point;
-
 import java.util.Random;
 
 /**
@@ -9,19 +7,19 @@ import java.util.Random;
  */
 public class TwoPoints {
 
-    private Point[] points = new Point[2];
+    private Coords[] points = new Coords[2];
     private Random rand = new Random();
 
     /** ctor */
     public TwoPoints() {
-        points[0] = new Point(0,0);
-        points[1] = new Point(0,0);
+        points[0] = new Coords(0,0);
+        points[1] = new Coords(0,0);
     }
 
     /** Gets a point.
      * - Assume this won't be called with an invalid index.
      */
-    public Point getPoint(int index) {
+    public Coords getPoint(int index) {
         return points[index];
     }
 
