@@ -7,6 +7,7 @@ import java.util.Random;
  */
 public class TwoPoints {
 
+    // Future instructors: do not change to an android.graphics.Point (unless you want to set up Robolectric).
     private Coords[] points = new Coords[2];
     private Random rand = new Random();
 
